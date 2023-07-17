@@ -97,7 +97,7 @@ export default class Inicio extends Component {
             <MapViewDirections
               origin={region}
               destination={destination}
-              apikey={"AIzaSyDKro7kWLS72t0DSgjci_BmCAKuRJmujSo"}
+              apikey={"YOUR_API_KEY"}
               strokeWidth={4}
               strokeColor="blue"
               onReady={this.onDirectionFound} // Capturar tiempo estimado
