@@ -1,9 +1,9 @@
 <?php
 //credenciales
-$server = "localhost";
-$user ="id18511885_espectroazul";
-$password ="PFIFP&!LOL5Xs_t]";
-$db = "id18511885_appradarcucei"; //conexión con el servidor de bd
+$server = "";
+$user ="";
+$password ="";
+$db = ""; //conexión con el servidor de bd
 $conn = mysqli_connect($server,$user,$password,$db);
 if(!$conn){
     echo "error de conexion".mysqli_connect_error();
