@@ -2,9 +2,9 @@
 //script de autentificacion
 
 //crear las variables para la conexion 
-$server = "localhost";
-$user ="id18511885_espectroazul";
-$password ="PFIFP&!LOL5Xs_t]";
+$server = "";
+$user ="";
+$password ="";
 $db = "id18511885_appradarcucei"; //conexión con el servidor de bd
 
 //recibir variables de la app
