@@ -109,8 +109,7 @@ export default class DetallesReporte extends Component {
                 }
             }
         };
-        console.log("https://carreracucei3015.000webhostapp.com/AltaReporte.php?Codigo=" + this.state.Codigo + "&Nombre=" + this.state.Nombre + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
-        xhttp.open("GET", "https://carreracucei3015.000webhostapp.com/AltaReporte.php?Codigo=" + this.state.Codigo + "&Nombre=" + this.state.Nombre + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
+        xhttp.open("GET", "AltaReporte.php?Codigo=" + this.state.Codigo + "&Nombre=" + this.state.Nombre + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
         xhttp.send();
     }
 
