@@ -94,8 +94,7 @@ export default class DataScreen extends Component {
               }
           }
       };
-      xhttp.open("GET", "https://carreracucei3015.000webhostapp.com/Editar.php?Id=" + this.state.Id + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
-      console.log("GET", "https://carreracucei3015.000webhostapp.com/Editar.php?Id=" + this.state.Id + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
+      xhttp.open("GET", "Editar.php?Id=" + this.state.Id + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
       xhttp.send();
     }
 
@@ -121,7 +120,7 @@ export default class DataScreen extends Component {
             }
           }
       };
-      xhttp.open("GET", "https://carreracucei3015.000webhostapp.com/BajaReporte.php?Id=" + this.props.route.params.Id, true);
+      xhttp.open("GET", "BajaReporte.php?Id=" + this.props.route.params.Id, true);
       xhttp.send();
     }
 
