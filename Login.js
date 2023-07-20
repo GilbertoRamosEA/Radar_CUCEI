@@ -55,13 +55,12 @@ export default class Login extends Component {
               var datos = recibe.split(",");
               console.log(datos[2],datos[1]);
               storeData(datos);
-              //_this.props.navigation.navigate("Menu",{nombre:datos[2],codigo:datos[1]});
               _this.props.navigation.navigate("Menu");
             }
 
           }
       };
-      xhttp.open("GET", "http://148.202.152.33/ws_claseaut.php?codigo="+this.state.codigo+"&nip="+this.state.nip,true);
+      xhttp.open("GET", "Validacion.php"+this.state.codigo+"&nip="+this.state.nip,true);
       xhttp.send();
 
 
