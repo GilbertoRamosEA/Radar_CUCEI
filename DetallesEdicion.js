@@ -107,7 +107,6 @@ export default class DetallesEdicion extends Component {
                 }
             }
         };
-        console.log("https://carreracucei3015.000webhostapp.com/Editar.php?Id=" + this.state.Id + "&Nombre=" + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
         xhttp.open("GET", "https://carreracucei3015.000webhostapp.com/Editar.php?Id=" + this.state.Id + "&Nombre=" + "&Dia=" + this.state.Dia  + "&Hora=" + this.state.Hora + "&Incidencia=" + this.state.Incidencia + "&Entrada=" + this.state.Entrada, true);
         xhttp.send();
     }
