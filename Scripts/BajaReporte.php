@@ -4,10 +4,10 @@
 $Id = $_GET['Id'];
 
 //Credenciales
-$server = "localhost";
-$user ="id18511885_espectroazul";
-$password ="PFIFP&!LOL5Xs_t]";
-$db = "id18511885_appradarcucei"; //conexión con el servidor de bd
+$server = "";
+$user ="";
+$password ="";
+$db = ""; //conexión con el servidor de bd
 
 //Connection
 
