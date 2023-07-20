@@ -24,7 +24,7 @@ export default class Estadisticas extends Component {
 
     xhttp.open(
       'GET',
-      `https://carreracucei3015.000webhostapp.com/MostrarReportes.php`,
+      `MostrarReportes.php`,
       true,
     );
 
